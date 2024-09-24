@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* App.css */
+
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Main Container Styling */
+.container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Heading Styles */
+h1 {
+  color: #333;
+}
+
+h2 {
+  color: #0056b3;
+}
+
+/* Textarea Styling */
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-bottom: 20px;
+  resize: none; /* Disable resizing */
+}
+
+/* Input Fields Styling */
+input[type='text'] {
+  width: 48%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin: 0 1%;
+}
+
+/* Button Styling */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745; /* Green */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838; /* Darker green */
+}
+
+/* Statistics Section Styling */
+.statistics {
+  background: #e9ecef;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+/* Highlighted Text Styling */
+.highlighted-text {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #ffeeba; /* Light yellow */
+  border-radius: 5px;
+  text-align: left; /* Align text to the left */
+}
+
+/* Error Message Styling */
+.error {
+  color: red;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Write your CSS code here */
